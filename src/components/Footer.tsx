@@ -12,7 +12,7 @@ export default function DownloadSection() {
       <main id="Footer" className="Footer" >
         <section className="About-Zigen">
             <div className="Footer-logo">
-                <h1>Zingen</h1>
+                <h1> <a href="#Header"> Zingen</a></h1>
             </div>
             <div className="About-container">
                 <h6>Produto</h6>
@@ -40,7 +40,7 @@ export default function DownloadSection() {
                 <img src={Discord} alt="logo Discord" />
                  
             </div>
-            <p>©2024 Zingen Technologies, Inc.</p>
+            <p>©2025 Zingen Technologies, Inc.</p>
         </section>
       </main>
 

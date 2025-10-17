@@ -1,5 +1,10 @@
 /* mobile */
 
+html{
+      scroll-behavior: smooth;
+
+}
+
 :root{
     --bg-color:#09090b;
     --surface-color: #18181b;

@@ -16,8 +16,8 @@ export default function Hero() {
         <h2> Cantar nunca foi tão fácil </h2>
         </section>
         <div className="flex justify-center gap-button">
-        <button className="btn-second">Ver planos</button>
-        <button className="btn-primary btn-second2">Baixar agora</button>
+        <button className="btn-second"> <a href="#Pricing"> Ver planos</a> </button>
+        <button className="btn-primary btn-second2"><a href="#Download">Baixar agora</a></button>
         </div>
         
     </main>
