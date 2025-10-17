@@ -1,0 +1,131 @@
+/* mobile */
+
+:root{
+    --bg-color:#09090b;
+    --surface-color: #18181b;
+    --stroke-color:#27272a; 
+    --text-color-secondary:#a1a1aa;
+    --text-color-primary: #F4F4F5;
+    --brand-color-primary:#f7b733;
+    --brand-color-secondary: #FC4A1A;
+    
+    --padding-h-header: 1.5rem;
+    --pt-header:1.5rem;
+
+    --margin-t:0.5rem;
+    --margin-b: 2rem;
+
+    --logo-size:1.5rem;
+
+    --font-sm: 0.875rem;
+    --font-md:1rem;
+    --font-lg: 2.5rem;
+    --font-xl: 4.06rem;
+
+    --bold-lg:800;
+
+    --btn-sm: 5rem;
+    --btn-size-md:6rem;
+    --btn-size-lg:7.5rem;
+
+    --border-btnprimary: 8px;
+
+    --gap-button:1rem;
+
+
+    --wave-mb:1rem;
+    --wave-mt:4rem;
+
+}
+
+
+
+h1{
+    font-weight: var(--bold-lg);
+    font-size: var(--font-lg);
+   
+}
+
+h2{
+    color: var(--text-color-secondary);
+
+    font-size: 1.25rem;
+
+    margin-top: var(--margin-t);
+    margin-bottom: var(--margin-b);
+}
+body{
+    background-color: var(--bg-color);
+      font-family: "Roboto", sans-serif;
+
+    margin: 0;
+}
+
+header{
+    padding-top: var(--pt-header);
+    padding-bottom:var(--pt-header) ;
+     width: calc(100% - (2 * var(--padding-h-header)));
+     margin: auto;
+    
+}
+header h1{
+    color: var(--text-color-primary);
+    font-size: var(--logo-size);
+}
+
+ul li {
+  color: var(--text-color-primary); /* começa branco */
+  font-size: var(--font-md);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  background: linear-gradient(90deg, var(--brand-color-secondary), var(--brand-color-primary));
+  background-size: 0% 100%; 
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--text-color-primary); 
+}
+
+ul li:hover {
+  background-size: 100% 100%; 
+  -webkit-text-fill-color: transparent; 
+}
+
+
+
+.desktop-only{
+    display: none;
+}
+
+
+/* desktop */
+@media (width >= 80em){
+    :root{
+        --margin-t:1rem;
+        --margin-b: 3rem;
+        --logo-size: 2rem;
+
+        --padding-h-header: 2rem;
+    }
+    header{
+        width: calc(100% - (2 * var(--padding-h-header)));
+    }
+    .desktop-only{
+        display: flex;
+    }
+    .nav-btn{
+        display: flex;
+    }
+    ul{
+    color: var(--text-color-secondary);
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+}.wave-hero-title {
+    font-size: var(--font-xl);
+    margin: var(--pt-header);
+}h2{
+    font-size: var(--font-lg);
+}
+}
+

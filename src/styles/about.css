@@ -1,0 +1,98 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface-color);
+}
+
+/* mobile */
+#smartphones-img {
+  background: url(../assets/bg-mobile-hero.svg) top/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+#smartphones-img img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+}
+
+.About-description {
+  text-align: initial;
+  background-color: var(--surface-color);
+  padding: 2rem 1.5rem;
+}
+
+.About-description h6 {
+  color: var(--brand-color-primary);
+  font-size: var(--font-md);
+}
+
+.About-description h1 {
+  color: var(--text-color-primary);
+  font-size: 1.5rem;
+}
+
+.About-description p {
+  color: var(--text-color-secondary);
+  font-size: 1rem;
+  line-height: 160%;
+}
+
+/* --- DESKTOP --- */
+@media (width >= 80em) {
+  .About {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch; 
+    justify-content: center;
+    background-color: var(--surface-color);
+    padding: 0 2rem;
+  }
+
+  #smartphones-img {
+    background: none;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+  }
+
+  #smartphones-img img {
+    max-width: 70%;
+    object-fit: contain;
+      margin-bottom: 5rem;
+    
+  }
+
+  .About-description {
+    flex: 1;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 0;
+  }
+
+  .About-description h6 {
+    color: var(--brand-color-primary);
+    font-size: var(--font-sm);
+    margin-bottom: 0.5rem;
+  }
+
+  .About-description h1 {
+    color: var(--text-color-primary);
+    font-size: 3rem;
+    line-height: 120%;
+    margin-bottom: 1rem;
+  }
+
+  .About-description p {
+    color: var(--text-color-secondary);
+    font-size: 1rem;
+    line-height: 160%;
+  }
+}

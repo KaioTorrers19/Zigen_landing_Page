@@ -1,0 +1,15 @@
+#Hero {
+    margin-top: var(--wave-mt);
+}
+
+
+
+@media (width >= 80em){
+    #Hero{
+         height: 48rem;
+        --wave-mt:5rem;
+          background: url(../assets/bg-desktop-hero.svg ) no-repeat bottom center/contain;
+          padding-bottom: 15rem;
+          width: 100%;
+    }
+}

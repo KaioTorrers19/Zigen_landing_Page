@@ -1,0 +1,104 @@
+#Footer {
+  margin-top: 3rem;
+  width: 100%;
+  color: var(--text-color-primary);
+  padding: 36px 3rem;
+  box-sizing: border-box;
+}
+
+.About-Zigen {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1216px;
+}
+
+.About-Zigen h6 {
+  margin-top: 3rem;
+  color: var(--brand-color-primary);
+  font-weight: 600;
+}
+
+.About-Zigen p {
+  color: var(--text-color-secondary);
+  font-size: 1rem;
+  line-height: 160%;
+  margin-top: 1.25rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.About-Zigen p:hover {
+  color: var(--brand-color-primary);
+}
+
+.Footer-logo h1 {
+  color: var(--text-color-primary);
+  font-size: var(--logo-size);
+  margin-bottom: 2rem;
+}
+
+
+
+.footer-social-media {
+  width: 100%;
+  max-width: 1216px;
+  margin: 2rem auto 0;
+  display: flex;
+  flex-direction: column; /* 👈 muda isso */
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 1.5rem;
+  gap: 1rem;
+}
+
+.footer-social-media p {
+  color: var(--text-color-secondary);
+  font-size: var(--font-md);
+}
+
+.Img-Social_Media {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.Img-Social_Media img {
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.Img-Social_Media img:hover {
+  transform: scale(1.1);
+}
+
+
+@media (min-width: 80em) {
+  .About-Zigen {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+  }
+
+  .About-container {
+    margin: 0;
+  }
+
+  .Footer-logo h1 {
+    margin: 0;
+  }.footer-social-media {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+
+  .Img-Social_Media {
+    margin-top: 2rem;
+  }
+}

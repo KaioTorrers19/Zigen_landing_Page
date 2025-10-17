@@ -1,0 +1,74 @@
+#Download{
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.Card-Download-Container{
+   overflow: hidden;
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border-radius: 1.5rem;
+    width:327px;
+    padding: 48px 24px 290px 24px;
+    background-color: var(--stroke-color);
+}.Card-Download-Container h6{
+    color: var(--brand-color-primary);
+    font-size: var(--font-sm);
+
+}.Card-Download-Container h2{
+    color: var(--text-color-primary);
+    font-size: 1.5rem;
+    margin: 8px 0 8px 0 ;
+}.Card-Download-Container p{
+    color: var(--text-color-secondary);
+    font-size: var(--font-md);
+    line-height: 160%;
+    margin-bottom: 2rem;
+}.Download-Stores-container img:nth-child(1){
+    margin-bottom:15px ;
+}.Images-Download{
+    position: relative;
+    width: 100%;
+    display: flex;
+}.Guy-listening-Msc img{
+
+    inset: 0;
+    position: absolute;
+    object-fit: cover;
+    transform: translate(90px, 40px);
+}@media (width >= 80em){
+    #Download{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .Card-Download-Container{
+    overflow: visible;
+    width: 1216px;
+    padding: 140PX 80PX 140px 80px;
+}.Download-Stores-container{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+   
+    
+}.Card-Download-Container p{
+ margin-bottom: 2,5rem;   
+}
+.Download-Stores-container img:nth-child(1){
+    margin: 0px;
+}  .Text-Download {
+    max-width: 57%;
+  }
+  
+  .Guy-listening-Msc img{
+    margin: 0;
+    width: 500px;
+    position: absolute;
+    z-index: 4;
+    transform: translate(600px, -477px);
+}
+}
