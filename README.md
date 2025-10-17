@@ -18,7 +18,7 @@ Landing Page responsivo Utilizando boas praticas.
 <br>
 
 <p align="center">
-  <img alt="Zigen " src="assets/Capa.png" width="100%">
+  <img alt="Zigen " src="src/assets/Capa.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
